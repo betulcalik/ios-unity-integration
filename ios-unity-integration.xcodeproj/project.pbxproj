@@ -13,9 +13,59 @@
 		62F5EEE92A9A1B7B0047C7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5EEE72A9A1B7B0047C7A7 /* Main.storyboard */; };
 		62F5EEEB2A9A1B7C0047C7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5EEEA2A9A1B7C0047C7A7 /* Assets.xcassets */; };
 		62F5EEEE2A9A1B7C0047C7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5EEEC2A9A1B7C0047C7A7 /* LaunchScreen.storyboard */; };
+		62F5EF052A9A1BA10047C7A7 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */; };
+		62F5EF062A9A1BA10047C7A7 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5598BAFEF0F3F58090DEFCA /* Pods_ios_unity_integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		62F5EEFC2A9A1B930047C7A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = "Unity-iPhone";
+		};
+		62F5EEFE2A9A1B930047C7A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5623C57317FDCB0800090B9E;
+			remoteInfo = "Unity-iPhone Tests";
+		};
+		62F5EF002A9A1B930047C7A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+		62F5EF022A9A1B930047C7A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F4E05A02717216D00A2CBE4;
+			remoteInfo = GameAssembly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F5EF072A9A1BA10047C7A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62F5EF062A9A1BA10047C7A7 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		22C3A19375855808CB068FD3 /* Pods-ios-unity-integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-unity-integration.debug.xcconfig"; path = "Target Support Files/Pods-ios-unity-integration/Pods-ios-unity-integration.debug.xcconfig"; sourceTree = "<group>"; };
+		415030885CA5C1769EB18459 /* Pods-ios-unity-integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-unity-integration.release.xcconfig"; path = "Target Support Files/Pods-ios-unity-integration/Pods-ios-unity-integration.release.xcconfig"; sourceTree = "<group>"; };
 		62F5EEDE2A9A1B7B0047C7A7 /* ios-unity-integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-unity-integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F5EEE12A9A1B7B0047C7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62F5EEE32A9A1B7B0047C7A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +74,8 @@
 		62F5EEEA2A9A1B7C0047C7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F5EEED2A9A1B7C0047C7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F5EEEF2A9A1B7C0047C7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "unity-sample/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_unity_integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F5EF052A9A1BA10047C7A7 /* UnityFramework.framework in Frameworks */,
+				C5598BAFEF0F3F58090DEFCA /* Pods_ios_unity_integration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20CDF96A6041CD0A2835151E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22C3A19375855808CB068FD3 /* Pods-ios-unity-integration.debug.xcconfig */,
+				415030885CA5C1769EB18459 /* Pods-ios-unity-integration.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		62F5EED52A9A1B7B0047C7A7 = {
 			isa = PBXGroup;
 			children = (
+				62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */,
 				62F5EEE02A9A1B7B0047C7A7 /* ios-unity-integration */,
 				62F5EEDF2A9A1B7B0047C7A7 /* Products */,
+				62F5EF042A9A1BA10047C7A7 /* Frameworks */,
+				20CDF96A6041CD0A2835151E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +134,25 @@
 			path = "ios-unity-integration";
 			sourceTree = "<group>";
 		};
+		62F5EEF62A9A1B930047C7A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F5EEFD2A9A1B930047C7A7 /* My project (1).app */,
+				62F5EEFF2A9A1B930047C7A7 /* Unity-iPhone Tests.xctest */,
+				62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */,
+				62F5EF032A9A1B930047C7A7 /* libGameAssembly.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F5EF042A9A1BA10047C7A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62F5EEF22A9A1B7C0047C7A7 /* Build configuration list for PBXNativeTarget "ios-unity-integration" */;
 			buildPhases = (
+				709618A8951CDCAEB8F16934 /* [CP] Check Pods Manifest.lock */,
 				62F5EEDA2A9A1B7B0047C7A7 /* Sources */,
 				62F5EEDB2A9A1B7B0047C7A7 /* Frameworks */,
 				62F5EEDC2A9A1B7B0047C7A7 /* Resources */,
+				62F5EF072A9A1BA10047C7A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +201,49 @@
 			mainGroup = 62F5EED52A9A1B7B0047C7A7;
 			productRefGroup = 62F5EEDF2A9A1B7B0047C7A7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 62F5EEF62A9A1B930047C7A7 /* Products */;
+					ProjectRef = 62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				62F5EEDD2A9A1B7B0047C7A7 /* ios-unity-integration */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		62F5EEFD2A9A1B930047C7A7 /* My project (1).app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "My project (1).app";
+			remoteRef = 62F5EEFC2A9A1B930047C7A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62F5EEFF2A9A1B930047C7A7 /* Unity-iPhone Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unity-iPhone Tests.xctest";
+			remoteRef = 62F5EEFE2A9A1B930047C7A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UnityFramework.framework;
+			remoteRef = 62F5EF002A9A1B930047C7A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		62F5EF032A9A1B930047C7A7 /* libGameAssembly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGameAssembly.a;
+			remoteRef = 62F5EF022A9A1B930047C7A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		62F5EEDC2A9A1B7B0047C7A7 /* Resources */ = {
@@ -132,6 +257,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		709618A8951CDCAEB8F16934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-unity-integration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62F5EEDA2A9A1B7B0047C7A7 /* Sources */ = {
@@ -282,6 +432,7 @@
 		};
 		62F5EEF32A9A1B7C0047C7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C3A19375855808CB068FD3 /* Pods-ios-unity-integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +461,7 @@
 		};
 		62F5EEF42A9A1B7C0047C7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415030885CA5C1769EB18459 /* Pods-ios-unity-integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
