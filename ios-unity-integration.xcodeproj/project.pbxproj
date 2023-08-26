@@ -15,6 +15,7 @@
 		62F5EEEE2A9A1B7C0047C7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5EEEC2A9A1B7C0047C7A7 /* LaunchScreen.storyboard */; };
 		62F5EF052A9A1BA10047C7A7 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */; };
 		62F5EF062A9A1BA10047C7A7 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5EF012A9A1B930047C7A7 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62F5EF102A9A20FD0047C7A7 /* UnityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5EF0F2A9A20FD0047C7A7 /* UnityManager.swift */; };
 		C5598BAFEF0F3F58090DEFCA /* Pods_ios_unity_integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		62F5EEED2A9A1B7C0047C7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F5EEEF2A9A1B7C0047C7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F5EEF52A9A1B930047C7A7 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "unity-sample/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		62F5EF0F2A9A20FD0047C7A7 /* UnityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityManager.swift; sourceTree = "<group>"; };
 		8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_unity_integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +99,6 @@
 				22C3A19375855808CB068FD3 /* Pods-ios-unity-integration.debug.xcconfig */,
 				415030885CA5C1769EB18459 /* Pods-ios-unity-integration.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +124,7 @@
 		62F5EEE02A9A1B7B0047C7A7 /* ios-unity-integration */ = {
 			isa = PBXGroup;
 			children = (
+				62F5EF0A2A9A20F00047C7A7 /* Managers */,
 				62F5EEE12A9A1B7B0047C7A7 /* AppDelegate.swift */,
 				62F5EEE32A9A1B7B0047C7A7 /* SceneDelegate.swift */,
 				62F5EEE52A9A1B7B0047C7A7 /* ViewController.swift */,
@@ -151,6 +153,14 @@
 				8C40C3BE000E267AEC33DB00 /* Pods_ios_unity_integration.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F5EF0A2A9A20F00047C7A7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				62F5EF0F2A9A20FD0047C7A7 /* UnityManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F5EEE62A9A1B7B0047C7A7 /* ViewController.swift in Sources */,
+				62F5EF102A9A20FD0047C7A7 /* UnityManager.swift in Sources */,
 				62F5EEE22A9A1B7B0047C7A7 /* AppDelegate.swift in Sources */,
 				62F5EEE42A9A1B7B0047C7A7 /* SceneDelegate.swift in Sources */,
 			);
